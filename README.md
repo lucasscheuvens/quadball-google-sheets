@@ -10,6 +10,7 @@
   * enter your tournament id in the field `tournament_id`
   * adjust `sheet_name`, `raw_data_start_row` if needed
 * In your Google Sheets file, enter all game_ids in the column specified under `spreadsheet.columns.read.game_ids` (default: `A`)
+* execute script with `node index.js`
 
 A standard game fetched from the API has the following structure:
 
